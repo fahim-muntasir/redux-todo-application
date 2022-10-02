@@ -3,7 +3,7 @@ import Todo from "./Todo";
 
 export default function IncompliteTodos() {
     return (
-        <div className="lg:w-96 md:w-96 w-full ring ring-sky-500 h-96 rounded relative overflow-y-auto ">
+        <div className="lg:w-96 md:w-96 w-full ring ring-sky-500 h-96 rounded relative overflow-y-auto mb-5 lg:mb-0 md:mb-0 ">
             <div className="sticky top-0 bg-cyan-200 right-0 left-0 pt-5 px-5">
                 <h1 className="text-2xl mb-5 text-center text-gray-800 font-semibold">
                     Incomplited Todos
