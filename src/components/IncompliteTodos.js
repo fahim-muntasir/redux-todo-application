@@ -9,19 +9,26 @@ export default function IncompliteTodos() {
                     Incomplited Todos
                 </h1>
 
-                <hr className="mb-2" />
-                <div className=" mb-4 flex justify-between">
-                    <div>
-                        <span className="text cursor-pointer text-sm">
-                            <i class="fa-solid fa-check-double"></i> Complite
-                            all task
-                        </span>
+                <hr className="mb-4" />
+                <div className="flex justify-between">
+                    <div className="">
+                        <input
+                            type="text"
+                            placeholder="Search todos..."
+                            className="w-full border-box bg-transparent ring ring-sky-500 ring-1 py-1 px-3 rounded outline-none text-sm"
+                        />
                     </div>
                     <div className="flex gap-2 items-center">
-                        <div className="w-4 h-4 border border-red-500 rounded-full cursor-pointer hover:bg-red-500"></div>
-                        <div className="w-4 h-4 border border-green-500 rounded-full cursor-pointer hover:bg-green-500"></div>
-                        <div className="w-4 h-4 border border-yellow-500 rounded-full cursor-pointer hover:bg-yellow-500"></div>
+                        <div className="w-4 h-4 border border-red-500 rounded-md cursor-pointer hover:bg-red-500"></div>
+                        <div className="w-4 h-4 border border-green-500 rounded-md cursor-pointer hover:bg-green-500"></div>
+                        <div className="w-4 h-4 border border-yellow-500 rounded-md cursor-pointer hover:bg-yellow-500"></div>
                     </div>
+                </div>
+                <div className="my-3">
+                    <span className="text cursor-pointer text-sm">
+                        <i class="fa-solid fa-check-double"></i> Complite all
+                        task
+                    </span>
                 </div>
             </div>
             <div className="px-5">

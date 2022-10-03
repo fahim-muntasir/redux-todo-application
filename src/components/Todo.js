@@ -8,9 +8,9 @@ export default function Todo({ text }) {
                 {text}
             </div>
             <div className="flex gap-2 items-center">
-                <div className="w-4 h-4 border border-red-500 rounded-full cursor-pointer hover:bg-red-500"></div>
-                <div className="w-4 h-4 border border-green-500 rounded-full cursor-pointer hover:bg-green-500"></div>
-                <div className="w-4 h-4 border border-yellow-500 rounded-full cursor-pointer hover:bg-yellow-500"></div>
+                <div className="w-4 h-4 border border-red-500 rounded-md cursor-pointer hover:bg-red-500"></div>
+                <div className="w-4 h-4 border border-green-500 rounded-md cursor-pointer hover:bg-green-500"></div>
+                <div className="w-4 h-4 border border-yellow-500 rounded-md cursor-pointer hover:bg-yellow-500"></div>
                 <i className="fa-solid fa-xmark text-gray-800 cursor-pointer"></i>
             </div>
         </li>
