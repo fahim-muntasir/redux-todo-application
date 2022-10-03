@@ -8,7 +8,15 @@ export default function CompliteTodos() {
                 <h1 className="text-2xl mb-5 text-center text-gray-800 font-semibold">
                     Complited Todos
                 </h1>
-                <hr className="mb-5" />
+                <hr className="mb-2" />
+                <div className=" mb-4 flex justify-between">
+                    <div>
+                        <span className="text cursor-pointer text-sm">
+                            <i class="fa-solid fa-trash"></i> Delete Complited
+                            task
+                        </span>
+                    </div>
+                </div>
             </div>
             <div className="px-5">
                 <ul>
